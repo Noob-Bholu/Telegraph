@@ -7,3 +7,6 @@ pyromod==1.5
 werkzeug==2.0.3
 args
 openai==0.28
+aiofiles
+asyncio==3.4.3
+aiohttp==3.8.4

@@ -66,8 +66,9 @@ InlineKeyboardButton(
                         "𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/itzme_dear")  
               ],
            [
-InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ 𝐂ᴍᴅs ", callback_data="ABOUT_CMD")
-                
+InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ 𝐂ᴍᴅs ", callback_data="ABOUT_CMD"),
+
+InlineKeyboardButton(text="๏ ᴄᴍᴅs ๏", callback_data="CMDS_CMD")           
            ]
         ),
     )                       

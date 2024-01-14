@@ -7,6 +7,7 @@ from pyrogram.types import CallbackQuery
 from config import *
 import os,sys,re,requests
 import asyncio,time
+import env
 from random import choice
 from bardapi import Bard
 from datetime import datetime
@@ -21,9 +22,9 @@ logging.basicConfig(
 StartTime = time.time()
 Mukesh = Client(
     "Telegraph" ,
-    api_id = API_ID,
-    api_hash = API_HASH ,
-    bot_token = BOT_TOKEN
+    api_id = env.API_ID,
+    api_hash = env.API_HASH ,
+    bot_token = env.BOT_TOKEN
 )
 xa = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
 SOURCE = xa

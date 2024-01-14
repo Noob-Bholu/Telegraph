@@ -1,5 +1,6 @@
 import os, re, subprocess, sys, traceback
 from inspect import getfullargspec
+from env import API_ID,API_HASH,BOT_TOKEN
 from io import StringIO
 from time import time
 from pyrogram import filters

@@ -21,19 +21,16 @@ class AlexaData(object):
     INLINE_SELECT = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdatest")
-            ],
-            [
-                InlineKeyboardButton("📼 ʏᴏᴜᴛᴜʙᴇ 📼", url="https://youtube/jankarikiduniya")
+                InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Intangible_creatorR"),
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/itzme_dear")
             ]
         ]
     )
     ERROR_BUTTON = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🌋 ʀᴇᴘᴏʀᴛ ᴇʀʀᴏʀ", url="https://t.me/Jankari_Ki_Duniya"),
-                InlineKeyboardButton("ᴊᴏɪɴ 🌋", url="https://t.me/Alexa_Help")
+                InlineKeyboardButton(" 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ", url="https://t.me/Intangible_creatorR"),
+                InlineKeyboardButton("𝐉ᴏɪɴ ", url="https://t.me/itzme_dear")
             ]
         ]
     )    
@@ -54,15 +51,15 @@ class AlexaData(object):
     ]
 
     HELP_STRING = f"""
-**ɪᴛ ɪs ᴀ ©️ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴘʀᴏᴊᴇᴄᴛ ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ʜᴇʟᴘ ᴀʟʟ ᴄᴍᴅ ᴀɴᴅ ᴅᴇᴛᴀɪʟs ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**
+**ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ʙᴀsɪᴄ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ʜᴇʟᴘ ᴀʟʟ ᴄᴍᴅ ᴀɴᴅ ᴅᴇᴛᴀɪʟs ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**
 **──────────────**
-<b> ©️ @Alexa_BotUpdates </b>
+
 """
 
     ABOUT_STRING = f"""
-➛ ɪɴᴛʀᴏᴅᴜᴄɪɴɢ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴘʀᴏᴊᴇᴄᴛ ꜰʀᴏᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ - ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ! ᴛʜɪs ɪɴᴄʀᴇᴅɪʙʟᴇ ʙᴏᴛ ᴄᴀɴ ᴇꜰꜰᴏʀᴛʟᴇssʟʏ ᴜᴘʟᴏᴀᴅ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ᴀɴɪᴍᴀᴛɪᴏɴs, ᴀɴᴅ ᴛᴇxᴛs ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ᴀɴᴅ ɪɴsᴛᴀɴᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ. ᴊᴜsᴛ ʀᴇᴍᴇᴍʙᴇʀ, ꜰᴏʀ ᴛʜᴇ ʙᴇsᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴜɴᴅᴇʀ 5ᴍʙ ɪɴ sɪᴢᴇ.
+➛  ᴛʜɪs ɪɴᴄʀᴇᴅɪʙʟᴇ ʙᴏᴛ ᴄᴀɴ ᴇꜰꜰᴏʀᴛʟᴇssʟʏ ᴜᴘʟᴏᴀᴅ ᴘɪᴄᴛᴜʀᴇs, ᴠɪᴅᴇᴏs, ᴀɴɪᴍᴀᴛɪᴏɴs, ᴀɴᴅ ᴛᴇxᴛs ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ᴀɴᴅ ɪɴsᴛᴀɴᴛʟʏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ᴜᴘʟᴏᴀᴅᴇᴅ ꜰɪʟᴇ. ᴊᴜsᴛ ʀᴇᴍᴇᴍʙᴇʀ, ꜰᴏʀ ᴛʜᴇ ʙᴇsᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ, ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ꜰɪʟᴇ ɪs ᴜɴᴅᴇʀ 5ᴍʙ ɪɴ sɪᴢᴇ.
 **───────────────**
-<b>©️ @Alexa_BotUpdates & @Alexa_Help </b>
+
 """
 
     CMDS_STRING = f"""
@@ -74,16 +71,9 @@ class AlexaData(object):
 **➛ `/uploadtxt` ʀᴇᴘʟᴀʏ ᴛᴏ ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟᴀʏ ᴡɪᴛʜ ᴍᴇssᴀɢᴇ ᴛᴏ ᴜᴘʟᴏᴀᴅ ᴛᴇxᴛ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ.**
 **➛ `/broadcast` ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴜsᴇʀs ᴀɴᴅ ᴄʜᴀᴛᴇs.**
 **───────────────**
-<b> ©️ @Alexa_BotUpdates & @Alexa_Help </b>
+
 """
 
     TEAM_STRING = f"""
-<u>**ᴛᴇᴀᴍ ᴀʟᴇxᴀ:**</u>
-ᴛᴇᴀᴍ ᴀʟᴇxᴀ, ꜰɪʀsᴛʟʏ, ɪᴛ ᴡᴀs ᴍᴀɴᴀɢᴇᴅ ʙʏ ᴀsᴀᴅ ᴀʟɪ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ, ʙᴜᴛ ᴛʜᴇʏ ʜᴀᴠᴇ ᴀʟʟ ʟᴇꜰᴛ. ɴᴏᴡ, ɪᴛ ɪs ʙᴇɪɴɢ ʀᴜɴ ʙʏ ᴀsᴀᴅ ᴀʟɪ ᴀɴᴅ ᴠᴇɴᴏᴍ., ʜᴀs ᴛʀᴜʟʏ ʙᴇᴇɴ ᴀ ꜰᴏʀᴄᴇ ᴛᴏ ʙᴇ ʀᴇᴄᴋᴏɴᴇᴅ ᴡɪᴛʜ. ᴡɪᴛʜ ᴛʜᴇɪʀ ᴅᴇᴅɪᴄᴀᴛɪᴏɴ ᴀɴᴅ ʜᴀʀᴅ ᴡᴏʀᴋ, ᴛʜᴇʏ ʜᴀᴠᴇ ᴍᴀɴᴀɢᴇᴅ ᴛᴏ ᴄʀᴇᴀᴛᴇ ɴᴜᴍᴇʀᴏᴜs ʙᴏᴛs ꜰᴏʀ ᴠᴀʀɪᴏᴜs ᴘᴜʀᴘᴏsᴇs sᴜᴄʜ ᴀs ᴍᴜsɪᴄ, ᴍᴀɴᴀɢᴇᴍᴇɴᴛ, ᴍᴇɴᴛɪᴏɴ, sᴇssɪᴏɴ, ᴄʜᴀᴛʙᴏᴛ, ᴀɴᴅ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅ ʙᴏᴛ, ᴀᴍᴏɴɢ ᴏᴛʜᴇʀs. ᴛʜᴇɪʀ ᴇꜰꜰᴏʀᴛs ʜᴀᴠᴇ ɴᴏᴛ ɢᴏɴᴇ ᴜɴɴᴏᴛɪᴄᴇᴅ, ᴀs ᴄᴏᴜɴᴛʟᴇss ᴜsᴇʀs ʜᴀᴠᴇ ʙᴇɴᴇꜰɪᴛᴇᴅ ꜰʀᴏᴍ ᴛʜᴇɪʀ ᴄʀᴇᴀᴛɪᴏɴs. ɪɴ ᴀᴅᴅɪᴛɪᴏɴ, ᴛᴇᴀᴍ ᴀʟᴇxᴀ ɪs ᴀʟsᴏ ʀᴇsᴘᴏɴsɪʙʟᴇ ꜰᴏʀ ʀᴜɴɴɪɴɢ ᴛʜᴇ ʜɪɢʜʟʏ sᴜᴄᴄᴇssꜰᴜʟ ᴊᴀɴᴋᴀʀɪ ᴋɪ ᴅᴜɴɪʏᴀ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ, ᴡʜɪᴄʜ ʜᴀs ᴘʀᴏᴠɪᴅᴇᴅ ᴠᴀʟᴜᴀʙʟᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴛᴏ ᴠɪᴇᴡᴇʀs ᴡᴏʀʟᴅᴡɪᴅᴇ. 
-
-<a href="https://www.youtube.com/jankarikiduniya" target="_blank">Click Here To Visit Our Channel</a>
-
-ᴛᴏ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ sᴜᴘᴘᴏʀᴛᴇᴅ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴀɴᴅ ᴜᴛɪʟɪᴢᴇᴅ ᴛʜᴇɪʀ ʙᴏᴛs, ᴡᴇ ᴇxᴛᴇɴᴅ ᴏᴜʀ ʜᴇᴀʀᴛꜰᴇʟᴛ ᴛʜᴀɴᴋs. ʏᴏᴜʀ ᴄᴏɴᴛɪɴᴜᴇᴅ sᴜᴘᴘᴏʀᴛ ʜᴀs ʙᴇᴇɴ ɪɴsᴛʀᴜᴍᴇɴᴛᴀʟ ɪɴ ᴅʀɪᴠɪɴɢ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ɢʀᴇᴀᴛᴇʀ ʜᴇɪɢʜᴛs, ᴀɴᴅ ᴡᴇ ʟᴏᴏᴋ ꜰᴏʀᴡᴀʀᴅ ᴛᴏ ᴘʀᴏᴠɪᴅɪɴɢ ʏᴏᴜ ᴡɪᴛʜ ᴇᴠᴇɴ ᴍᴏʀᴇ ɪɴɴᴏᴠᴀᴛɪᴠᴇ sᴏʟᴜᴛɪᴏɴs ɪɴ ᴛʜᴇ ꜰᴜᴛᴜʀᴇ.
-**──────────────**
-<b>©️ @Alexa_BotUpdates & @Alexa_Help @TheTeamAlexa </b>
+ɴᴏᴛʜɪɴɢ ʜᴇʀᴇ
 """    

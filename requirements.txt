@@ -10,5 +10,5 @@ openai==0.28
 aiofiles
 asyncio==3.4.3
 aiohttp==3.8.4
-BytesIO
+BytesIO==2.6.0
 carbon

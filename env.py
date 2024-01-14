@@ -10,8 +10,7 @@ import os
 from dotenv import load_dotenv
 
 
-OPENAI_KEY = os.environ.get("OPENAI_KEY",None)
-load_dotenv()
+
 
 API_ID = os.getenv("API_ID", "").strip()
 API_HASH = os.getenv("API_HASH", "").strip()

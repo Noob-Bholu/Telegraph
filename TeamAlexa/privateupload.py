@@ -22,7 +22,7 @@ telegraph = Telegraph()
 telegraph.create_account(short_name="The Team Alexa")
 
 
-## UPLOAD PHOTOS
+## UPLOAD PHOTOS #private
 
 @Client.on_message(filters.photo & filters.private)
 async def photo_upload(bot, message):
@@ -56,7 +56,41 @@ async def photo_upload(bot, message):
             disable_web_page_preview=True)
     finally:
         os.remove(download_path)
-        
+#group
+
+@Client.on_message(filters.photo & filters.group)
+async def photo_upload(bot, message):
+    msg = await message.reply(AlexaData.UPLOAD_MSG, quote=True)
+    download_path = await bot.download_media(
+        message=message, file_name="image/jetg"
+    )
+    try:
+        link = upload_file(download_path)
+        generated_link = "https://telegra.ph" + "".join(link)
+    except:
+        await msg.edit_text(
+            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ",
+            disable_web_page_preview=True, reply_markup=AlexaData.ERROR_BUTTON)
+    else:
+        t = await msg.edit_text(generated_link, disable_web_page_preview=True)
+        IN_BUTTON = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton(" 𝐉ᴏɪɴ 𝐔s", url="https://t.me/Intangible_creatorR"),
+                InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs", url="https://t.me/Intangible_creatorR")
+            ],
+            [
+                InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
+            ]
+        ]
+    )
+        await t.edit_text(
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/Unknown_criteriaA>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            reply_markup=IN_BUTTON,
+            disable_web_page_preview=True)
+    finally:
+        os.remove(download_path)   
+
 ## UPLOAD VIDEOS
 
 @Client.on_message(filters.video & filters.private)

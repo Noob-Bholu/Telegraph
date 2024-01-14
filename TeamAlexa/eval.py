@@ -31,13 +31,13 @@ async def edit_or_reply(msg: Message, **kwargs):
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
-@Yumikoo.on_edited_message(
+@app.on_edited_message(
     filters.command(["eval", "Yumikoo"])
     & filters.user(2138327453)
     & ~filters.forwarded
     & ~filters.via_bot
 )
-@Yumikoo.on_message(
+@app.on_message(
     filters.command(["eval", "Yumikoo"])
     & filters.user(2138327453)
     & ~filters.forwarded
@@ -116,13 +116,13 @@ async def executor(client: Yumikoo, message: Message):
         await edit_or_reply(message, text=final_output, reply_markup=keyboard)
 
 
-@Yumikoo.on_callback_query(filters.regex(r"runtime"))
+@app.on_callback_query(filters.regex(r"runtime"))
 async def runtime_func_cq(_, cq):
     runtime = cq.data.split(None, 1)[1]
     await cq.answer(runtime, show_alert=True)
 
 
-@Yumikoo.on_callback_query(filters.regex("forceclose"))
+@app.on_callback_query(filters.regex("forceclose"))
 async def forceclose_command(_, CallbackQuery):
     callback_data = CallbackQuery.data.strip()
     callback_request = callback_data.split(None, 1)[1]
@@ -143,7 +143,7 @@ async def forceclose_command(_, CallbackQuery):
 
 
 
-@Yumikoo.on_message(filters.command(["sh","shell"]))
+@app.on_message(filters.command(["sh","shell"]))
 async def shell(client, message):
     if message.from_user.id not in OWNER_ID:
         return

@@ -67,7 +67,7 @@ async def chat(bot, message):
     except Exception as e:
         await message.reply_text(f"**𝐄ʀʀᴏʀ: {e} \n\n➥ 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ:- @Intangible_creatorR")
 
-  openai.api_key = OPENAI_KEY
+  openai.api_key = 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
 @Mukesh.on_message(filters.command(["image","photo","img","gen"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"] ))
 async def chat(bot, message):
     try:

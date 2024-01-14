@@ -3,7 +3,9 @@
     "description": "Upload Vide, Animation, Pics And Text To Telegraph And Get Direct Link.",
     "logo": "https://telegra.ph/file/9f201b7186f59f926de35.jpg",
     "keywords": [
-        "python3",
+        " python-3",
+        "telegram", 
+        "chatgpt",                                      
         "telegraph",
         "bot",
         "Alexa",

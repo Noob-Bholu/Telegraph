@@ -64,7 +64,9 @@ async def start_(client: Client, message: Message):
 
 InlineKeyboardButton(
                         "𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/itzme_dear")  
-              ]
+              ],
+           [
+InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ 𝐂ᴍᴅs ", callback_data="ABOUT_CMD")
                 
            ]
         ),

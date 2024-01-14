@@ -17,7 +17,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 LOG_ID = int(os.getenv("LOG_ID", ""))
-
+OPENAI_KEY = os.environ.get("OPENAI_KEY",None)
 if not API_ID:
     print("No API_ID found. Exiting...")
     raise SystemExit

@@ -60,8 +60,11 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " ❰ ᴊᴏɪɴ ʜᴇʀᴇ ❱ ", url=f"https://t.me/itzme_dear")
-                ]
+                        " 𝐔ᴘᴅᴀᴛᴇ ", url=f"https://t.me/itzme_dear")
+
+InlineKeyboardButton(
+                        "𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/itzme_dear")  
+              ]
                 
            ]
         ),

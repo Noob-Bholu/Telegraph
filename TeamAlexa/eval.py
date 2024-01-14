@@ -14,7 +14,7 @@ Yumikoo = Client(
     ":Yumikoo:",
     api_id=API_ID,
     api_hash=API_HASH,
-    bot_token=config.BOT_TOKEN,
+    bot_token=env.BOT_TOKEN,
 )
 
 async def aexec(code, client, message):

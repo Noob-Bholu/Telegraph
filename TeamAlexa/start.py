@@ -89,9 +89,3 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(AlexaData.H_BUTTON),
     )
 
-@Client.on_message(filters.command("help") & filters.group & ~filters.edited)
-async def help(client, message):
-    lamao = await message.reply_text(
-        text=AlexaData.HELP_STRING,
-        reply_markup=InlineKeyboardMarkup(AlexaData.H_BUTTON),
-    )

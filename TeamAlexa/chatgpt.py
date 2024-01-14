@@ -45,7 +45,7 @@ MAIN = [
     ],
 ]
 #main
-openai.api_key = OPENAI_KEY
+openai.api_key = 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
 @Mukesh.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
 

@@ -71,6 +71,8 @@ InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ 𝐂ᴍᴅs ", callback_data="ABOUT_C
 InlineKeyboardButton(text="𝐂ᴏᴍᴍᴀɴᴅs", callback_data="CMDS_CMD")           
            ]
         ]
+     ),
+
     )    
 
 

@@ -71,7 +71,10 @@ InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ 𝐂ᴍᴅs ", callback_data="ABOUT_C
 InlineKeyboardButton(text="𝐂ᴏᴍᴍᴀɴᴅs", callback_data="CMDS_CMD")           
            ]
         ]
-    )                       
+    )    
+
+
+                   
     sender_id = message.from_user.id
     sender_name = message.from_user.username
     return await client.send_message(LOG_ID, f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** @{sender_name}")

@@ -1,8 +1,8 @@
+from pyrogram import Client, filters
+from data import AlexaData
 
-from pyrogram import filters
 
-
-@app.on_message(filters.command("id"))
+@Client.on_message(filters.command("id"))
 def ids(_, message):
     reply = message.reply_to_message
     if reply:

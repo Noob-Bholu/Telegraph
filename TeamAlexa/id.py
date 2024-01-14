@@ -1,4 +1,4 @@
-from Telegraph import app
+
 from pyrogram import filters
 
 

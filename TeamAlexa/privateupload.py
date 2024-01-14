@@ -35,15 +35,15 @@ async def photo_upload(bot, message):
         generated_link = "https://telegra.ph" + "".join(link)
     except:
         await msg.edit_text(
-            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ᴀʟsᴏ 👉 <a href=https://t.me/Alexa_TelegraphBot>LEARN THIS BOT FIRST!</a>",
+            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ",
             disable_web_page_preview=True, reply_markup=AlexaData.ERROR_BUTTON)
     else:
         t = await msg.edit_text(generated_link, disable_web_page_preview=True)
         IN_BUTTON = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                InlineKeyboardButton(" 𝐉ᴏɪɴ 𝐔s", url="https://t.me/Intangible_creatorR"),
+                InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs", url="https://t.me/Intangible_creatorR")
             ],
             [
                 InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -51,7 +51,7 @@ async def photo_upload(bot, message):
         ]
     )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/Unknown_criteriaA>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -68,15 +68,15 @@ async def video_upload(bot, message):
         generated_link = "https://telegra.ph" + "".join(link)
     except:
         await msg.edit_text(
-            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ᴀʟsᴏ 👉 <a href=https://t.me/Alexa_TelegraphBot>LEARN THIS BOT FIRST!</a>",
+            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ",
             disable_web_page_preview=True, reply_markup=AlexaData.ERROR_BUTTON)
     else:
         t = await msg.edit_text(generated_link, disable_web_page_preview=True)
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                    InlineKeyboardButton(" 𝐉ᴏɪɴ 𝐔s", url="https://t.me/itzme_dear"),
+                    InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs ", url="https://t.me/Intangible_creatorR")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -84,7 +84,7 @@ async def video_upload(bot, message):
             ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/Unknown_criteriaA>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -103,7 +103,7 @@ async def animation_upload(bot, message):
         generated_link = "https://telegra.ph" + "".join(link)
     except:
         await msg.edit_text(
-            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ᴀʟsᴏ 👉 <a href=https://t.me/Give_Me_Heart>❤️ ᴄᴏᴍᴇ ᴀɴᴅ ɪɴᴄʀᴇᴀsᴇ ʜᴇᴀʀᴛ ❤️</a>",
+            "🌹 ꜰɪʟᴇ ᴍᴜsᴛ ʙᴇ ʟᴇss ᴛʜᴀɴ 5ᴍʙ, ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴᴏᴛʜᴇʀ ꜰɪʟᴇ ᴀʟsᴏ ",
             reply_markup=AlexaData.INLINE_SELECT,
             disable_web_page_preview=True)
     else:
@@ -111,8 +111,8 @@ async def animation_upload(bot, message):
         IN_BUTTON = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                InlineKeyboardButton(" 𝐉ᴏɪɴ 𝐔s", url="https://t.me/itzme_dear"),
+                InlineKeyboardButton("𝐔ᴘᴅᴀᴛᴇs ", url="https://t.me/Intangible_creatoR")
             ],
             [
                 InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -120,7 +120,7 @@ async def animation_upload(bot, message):
         ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/jankarikiduniya>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n<a href=https://youtube.com/Unknown_criteriaA>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:

@@ -42,14 +42,7 @@ async def cb_handler(client, query: CallbackQuery):
 @Client.on_message(filters.command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await add_telegraph_user(message.from_user.id)
-    alexamusic = await message.reply("🤭🤏✌️")
-    await asyncio.sleep(2)
-    await alexamusic.edit("**𝐁ᴏᴛ ɪs sᴛᴀʀᴛɪɴɢ**")
-    await asyncio.sleep(2)    
-    await alexamusic.delete()
-    umm = await message.reply_sticker("CAACAgIAAxkBAAEForNjAykaq_efq4Wd-9KZv-nNxJRn3AACIgMAAm2wQgO8x8PfoXC1eCkE")
-    await asyncio.sleep(2)
-    await message.reply_photo(
+    alexamusic = await message.reply_photo(
         photo=f"https://telegra.ph/file/c13cf4bd4271146f691f6.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━
 𝐇ᴇʏ, 𝐈 𝐀ᴍ 𝐓ᴇʟᴇɢʀᴀᴘʜ
